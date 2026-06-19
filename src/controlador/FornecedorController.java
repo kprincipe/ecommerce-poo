@@ -23,11 +23,9 @@ public class FornecedorController {
 		String chaveMin = chave.toLowerCase();
 		
 		for(Fornecedor fornecedor : fornecedores) {
-			if(fornecedor instanceof Fornecedor) {
 				if(fornecedor.getNome().toLowerCase().contains(chaveMin) || fornecedor.getCpfcnpj().contains(chaveMin)){
 						fornecedorBusca.add(fornecedor);
 					} 
-			}
 		}
 		return fornecedorBusca;
 	}
