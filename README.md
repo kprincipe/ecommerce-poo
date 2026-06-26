@@ -17,8 +17,8 @@ Interface de E-Commerce implementada para uma Atividade da disciplina de Program
 
 ## Correções de códigos
 - [ ] cadastrarComprador - enviar código de tela para classe de tela
-- [ ] cadastrarFornecedor - retirar _instanceof_
-- [ ] cadastrarMoveis - unidade indica se é pacote, un, kg, litro (unidade de medida)
+- [X] cadastrarFornecedor - retirar _instanceof_
+- [X] cadastrarMoveis - unidade indica se é pacote, un, kg, litro (unidade de medida)
 - [ ] fazerPedido - mudar método cadastrarComprar para cadastarPedido em Compra.java
 - [ ] receberPedido - aumentar a quantidade no estoque do produto
 - [ ] cadastrarCliente - retirar prints do controller e por nas telas
